@@ -1,4 +1,4 @@
-require 'pry' #put the gem name here
+#require 'pry' #put the gem name here
 
 # this is a comment
 # use this any time you need to explain something
@@ -17,7 +17,7 @@ puts 'You typed in #{first}'
 
 puts "Enter a number?"
 a = gets #take the string "a"
-a = a.to_i #and conver it into an integer (i)
+a = a.to_i #and convert it into an integer (i)
 
 puts "Enter a floating point number?"
 b = gets
@@ -27,7 +27,7 @@ c = a + b
 puts "The result of #{a} summed with #{b} is #{c}"
 
 # this is how to debug using pry
-binding.pry 
+#binding.pry 
 
 
 
@@ -73,7 +73,7 @@ stop = gets.to_i
 while start <= stop #while loop - start integer is less than or equal to stop integer; while this condition is true, then do the loop. It will keep asking the question until it is true. 
 	puts "Counting #{start}"
 	start = start + 1 #start += 1 --> means itself plus 1
-end #{} brackets replaced by end in Ruby
+end #{} brackets replaced =pby end in Ruby
 
 
 
