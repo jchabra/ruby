@@ -1,4 +1,4 @@
-require 'pry'
+rrequire 'pry'
 
 puts "Do you want to (a)dd, (s)ubtract, (m)ultiply, (d)ivide, (p)ower, (sq)uare root or (q)uit?"
 response = gets.chomp

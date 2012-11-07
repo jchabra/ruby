@@ -50,7 +50,7 @@ letter = gets.chomp #adds a new line?
 
 
 
-# case statement
+# case statement: use this when there are more than 2 options (3 or more)
 case letter
 when "a"
 	puts "You typed in a"
