@@ -1,4 +1,4 @@
-#Assignment Name: Animal Farm
+prot#Assignment Name: Animal Farm
 
 load 'person.rb' #this will run the person.rb file
 load 'animal.rb'
